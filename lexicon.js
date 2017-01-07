@@ -4015,7 +4015,6 @@ module.exports = {
         "RB"
     ], 
     "Clean": [
-        "NNP", 
         "JJ", 
         "NN", 
         "VB"
