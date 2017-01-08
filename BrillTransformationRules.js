@@ -155,7 +155,7 @@ function rule9(taggedSentence, index) {
 // rule 10: NN VB|VBP NN --> NN NN NN
 function rule10(taggedSentence, index) {
   if (index > 0 && startsWith(taggedSentence[index][1], 'VB')) {
-    if (taggedSentence[index - 1][1] === 'NN' && taggedSetence[index + 1] && taggedSentence[index + 1][1]) {
+    if (taggedSentence[index - 1][1] === 'NN' && taggedSentence[index + 1] && taggedSentence[index + 1][1]) {
       taggedSentence[index][1] = 'NN'
     }
   }
