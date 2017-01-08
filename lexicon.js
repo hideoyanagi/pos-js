@@ -33612,7 +33612,7 @@ module.exports = {
     ], 
     "Manual": [
         "JJ", 
-        "NNP"
+        "NN"
     ], 
     "confiscated": [
         "VBN", 
@@ -63585,8 +63585,7 @@ module.exports = {
         "NNP"
     ], 
     "material": [
-        "NN", 
-        "JJ"
+        "NN" 
     ], 
     "TURMOIL": [
         "NN"
@@ -150647,7 +150646,6 @@ module.exports = {
         "LS"
     ], 
     "Operation": [
-        "NNP", 
         "NN"
     ], 
     "ointment": [

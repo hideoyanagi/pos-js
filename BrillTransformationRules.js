@@ -25,7 +25,7 @@
 // [[the, DET], [red, JJ], [book, NN]] and i the position to be processed
 
 function BrillTransformationRules() {
-  this.rules = [rule1, rule2, rule3, rule4, rule5, rule6, rule7, rule8];
+  this.rules = [rule1, rule2, rule3, rule4, rule5, rule6, rule7, rule8, rule9];
 }
 
 BrillTransformationRules.prototype.getRule = function(index) {
@@ -140,6 +140,15 @@ function rule7(taggedSentence, index) {
 function rule8(taggedSentence, index) {
   if (startsWith(taggedSentence[index][1], "NN") && endsWith(taggedSentence[index][0], "ing")) {
     taggedSentence[index][1] = "VBG";
+  }
+}
+
+//  rule 9: DT, {VBD | VBP} --> DT, NN
+function rule9(taggedSentence, index) {
+  if ((taggedSentence[index][1] === "NN")) {
+    if ((taggedSentence[index + 1][1] === "DT") {
+      taggedSentence[index][1] = "VB";
+    }
   }
 }
 
