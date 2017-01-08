@@ -110,7 +110,7 @@ function rule3(taggedSentence, index) {
 // rule 4: convert any type to adverb if it ends in "ly";
 function rule4(taggedSentence, index) {
   if (endsWith(taggedSentence[index][0], "ly")) {
-    taggedSentence[index][1] = "RB";
+    // taggedSentence[index][1] = "RB";
   }
 }
 

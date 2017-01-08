@@ -92437,7 +92437,8 @@ module.exports = {
         "JJ"
     ], 
     "Supply": [
-        "NNP", 
+        "VB",
+        "VBP",
         "NN"
     ], 
     "Fraser": [
