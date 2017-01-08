@@ -66841,9 +66841,10 @@ module.exports = {
         "NNP"
     ], 
     "Push": [
-        "NN", 
         "VB", 
-        "VBP"
+        "VBP",
+        "NN" 
+
     ], 
     "misreading": [
         "NN"
@@ -246369,10 +246370,10 @@ module.exports = {
         "NN"
     ], 
     "reverse": [
-        "VB", 
         "JJ", 
         "NN", 
         "RB", 
+        "VB", 
         "VBP"
     ], 
     "state-law": [
