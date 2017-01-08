@@ -14356,8 +14356,10 @@ module.exports = {
         "NNP"
     ], 
     "Lower": [
+        "VB",
+        "VBP",
         "JJR", 
-        "NNP"
+        // "NNP"
     ], 
     "Microorganisms": [
         "NNS"
@@ -27284,9 +27286,10 @@ module.exports = {
         "VBZ"
     ], 
     "Release": [
-        "NNP", 
+        "JJ", 
         "NN", 
-        "VB"
+        "VB",
+        "VBP"
     ], 
     "bailiff": [
         "NN"
@@ -69829,6 +69832,8 @@ module.exports = {
         "NNP"
     ], 
     "Block": [
+        "VB",
+        "VBP",
         "NNP", 
         "NN"
     ], 
@@ -76846,12 +76851,12 @@ module.exports = {
         "JJ"
     ], 
     "open": [
-        "JJ", 
+        "VB",
         "VBP", 
+        "JJ", 
         "NN", 
         "RB", 
         "RP", 
-        "VB"
     ], 
     "second-level": [
         "JJ"
@@ -155669,7 +155674,7 @@ module.exports = {
     "lock": [
         "VB", 
         "VBP", 
-        "JJ", 
+        // "JJ", 
         "NN"
     ], 
     "coolness": [
@@ -179508,8 +179513,9 @@ module.exports = {
         "VBN"
     ], 
     "Open": [
-        "JJ", 
-        "VB"
+        "VB",
+        "VBP",
+        "JJ" 
     ], 
     "Kuan": [
         "NNP"
@@ -185269,8 +185275,8 @@ module.exports = {
         "JJ"
     ], 
     "relay": [
-        "VB", 
         "NN", 
+        "VB", 
         "VBP"
     ], 
     "relax": [
@@ -206557,7 +206563,9 @@ module.exports = {
         "NNP"
     ], 
     "Post": [
-        "NNP", 
+        "VB",
+        "VBP",
+        // "NNP", 
         "NN"
     ], 
     "continuous": [
@@ -232673,13 +232681,13 @@ module.exports = {
         "JJ"
     ], 
     "post": [
-        "NN", 
-        "FW", 
-        "IN", 
-        "JJ", 
+        // "FW", 
+        // "IN", 
+        // "JJ", 
         "VB", 
-        "VBD", 
-        "VBP"
+        // "VBD", 
+        "VBP",
+        "NN" 
     ], 
     "Poyner": [
         "NNP"
@@ -257469,13 +257477,13 @@ module.exports = {
         "RB"
     ], 
     "set": [
+        "VB",
+        "VBP", 
         "VBN", 
         "VBD", 
-        "VBP", 
         "VBD|VBN", 
         "JJ", 
-        "NN", 
-        "VB"
+        "NN" 
     ], 
     "Scypher": [
         "NNP"
@@ -271873,7 +271881,7 @@ module.exports = {
         "NN"
     ], 
     "that": [
-        "IN", 
+        // "IN", 
         "DT", 
         "NN", 
         "RB", 
