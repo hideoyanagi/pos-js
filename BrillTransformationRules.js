@@ -145,9 +145,9 @@ function rule8(taggedSentence, index) {
 
 //  rule 9: DT, {VBD | VBP} --> DT, NN
 function rule9(taggedSentence, index) {
-  if (taggedSentence[index][1] === "NN") {
-    if (taggedSentence[index + 1][1] === "DT") {
-      taggedSentence[index][1] = "VB";
+  if (index > 0 && taggedSentence[index - 1][1] === "NN") {
+    if (taggedSentence[index][1] === "DT") {
+      taggedSentence[index - 1][1] = "VB";
     }
   }
 }
