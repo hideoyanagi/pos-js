@@ -143,10 +143,10 @@ function rule8(taggedSentence, index) {
   }
 }
 
-//  rule 9: DT, {VBD | VBP} --> DT, NN
+//  rule 9: NN, DT -> VB, DT
 function rule9(taggedSentence, index) {
   if (index > 0 && taggedSentence[index - 1][1] === "NN") {
-    if (taggedSentence[index][1] === "DT") {
+    if (taggedSentence[index][1] === "DT" && taggedSentence[index][0].toLowerCase() !== 'that') {
       taggedSentence[index - 1][1] = "VB";
     }
   }
