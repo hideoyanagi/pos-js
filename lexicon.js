@@ -208389,7 +208389,6 @@ module.exports = {
         "NNS"
     ], 
     "def": [
-        "JJ", 
         "NN"
     ], 
     "wails": [
