@@ -187373,7 +187373,8 @@ module.exports = {
     ], 
     "prevent": [
         "VB", 
-        "VBP"
+        "VBP",
+        "NN"
     ], 
     "no-win": [
         "JJ"
@@ -259866,7 +259867,8 @@ module.exports = {
         "NNP"
     ], 
     "Prevent": [
-        "VB"
+        "VB",
+        "VBP"
     ], 
     "loan-restructuring": [
         "JJ"
@@ -294127,8 +294129,7 @@ module.exports = {
         "JJ"
     ], 
     "are": [
-        "VBP", 
-        "NNP"
+        "VBP" 
     ], 
     "facings": [
         "NNS"
