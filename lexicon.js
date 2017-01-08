@@ -42654,8 +42654,8 @@ module.exports = {
         "VBP"
     ], 
     "cover": [
-        "VB", 
         "NN", 
+        "VB", 
         "VBP"
     ], 
     "coves": [
@@ -49221,8 +49221,9 @@ module.exports = {
         "NN"
     ], 
     "Cover": [
-        "NNP", 
-        "VB"
+        "VB",
+        "VBP",
+        "NN"
     ], 
     "eluted": [
         "VBN"
@@ -61270,6 +61271,8 @@ module.exports = {
         "NN"
     ], 
     "COVER": [
+        "VB",
+        "VBP",
         "NN"
     ], 
     "pre-1933": [
