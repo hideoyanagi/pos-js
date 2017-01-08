@@ -27286,10 +27286,10 @@ module.exports = {
         "VBZ"
     ], 
     "Release": [
-        "JJ", 
-        "NN", 
         "VB",
-        "VBP"
+        "VBP",
+        "NN", 
+        "JJ", 
     ], 
     "bailiff": [
         "NN"
@@ -46429,7 +46429,9 @@ module.exports = {
         "NN"
     ], 
     "Lock": [
-        "NNP"
+        "VB",
+        "VBP",
+        "NN"
     ], 
     "knoll": [
         "NN"
@@ -70673,12 +70675,12 @@ module.exports = {
         "JJ"
     ], 
     "lower": [
+        "VB",
+        "VBP", 
         "JJR", 
         "RBR", 
-        "VBP", 
         "JJ", 
-        "RB", 
-        "VB"
+        "RB" 
     ], 
     "Backe": [
         "NNP"
@@ -111863,9 +111865,9 @@ module.exports = {
         "VBG"
     ], 
     "release": [
-        "NN", 
+        "VB",
         "VBP", 
-        "VB"
+        "NN" 
     ], 
     "particulate": [
         "JJ"
@@ -121148,8 +121150,9 @@ module.exports = {
         "NNP"
     ], 
     "Level": [
-        "NNP", 
-        "NN"
+        "NN",
+        "VB",
+        "VBP"
     ], 
     "transfixing": [
         "VBG"
@@ -126474,10 +126477,10 @@ module.exports = {
         "NN"
     ], 
     "block": [
-        "NN", 
+        "VB",
         "VBP", 
-        "JJ", 
-        "VB"
+        "NN", 
+        "JJ" 
     ], 
     "disclosure": [
         "NN"
@@ -150817,8 +150820,9 @@ module.exports = {
         "NNS"
     ], 
     "Tap": [
+        "NN",
         "VB", 
-        "NN"
+        "VBP"
     ], 
     "Tar": [
         "NNP", 
@@ -155672,10 +155676,10 @@ module.exports = {
         "VB"
     ], 
     "lock": [
+        "NN",
         "VB", 
-        "VBP", 
+        "VBP" 
         // "JJ", 
-        "NN"
     ], 
     "coolness": [
         "NN"
@@ -192961,9 +192965,9 @@ module.exports = {
         "NNP"
     ], 
     "move": [
-        "NN", 
+        "VB",
         "VBP", 
-        "VB"
+        "NN" 
     ], 
     "meditative": [
         "JJ"
@@ -200056,9 +200060,9 @@ module.exports = {
         "NN"
     ], 
     "Park": [
-        "NNP", 
+        "VB",
+        "VBP",
         "NN", 
-        "VB"
     ], 
     "wop": [
         "VB"
@@ -250271,7 +250275,8 @@ module.exports = {
         "VBG"
     ], 
     "Maintain": [
-        "VBP"
+        "VBP",
+        "VB"
     ], 
     "disreputable": [
         "JJ"
@@ -294093,7 +294098,12 @@ module.exports = {
     ], 
     "pvt": [
         "NN"
-    ], 
+    ],
+    "Dump": [
+        "VB",
+        "VBP",
+        "NN"
+    ],
     "dump": [
         "VB", 
         "VBP", 
@@ -295745,8 +295755,8 @@ module.exports = {
         "NNP"
     ], 
     "tap": [
-        "VB", 
         "NN", 
+        "VB", 
         "VBP"
     ], 
     "tar": [
