@@ -4015,9 +4015,9 @@ module.exports = {
         "RB"
     ], 
     "Clean": [
+        "VB",
         "JJ", 
-        "NN", 
-        "VB"
+        "NN" 
     ], 
     "Barend": [
         "NNP"
