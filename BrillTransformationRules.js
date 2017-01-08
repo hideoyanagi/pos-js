@@ -25,7 +25,7 @@
 // [[the, DET], [red, JJ], [book, NN]] and i the position to be processed
 
 function BrillTransformationRules() {
-  this.rules = [rule1, rule2, rule3, rule4, rule5, rule6, rule7, rule8, rule9, rule10, rule11];
+  this.rules = [rule1, rule2, rule3, rule4, rule5, rule6, rule7, rule8, rule9, rule10, rule11, rule12];
 }
 
 BrillTransformationRules.prototype.getRule = function(index) {
@@ -169,5 +169,17 @@ function rule11(taggedSentence, index) {
     }
   }
 }
+
+// rule 12: VB* CC NN --> VB* CC VB*
+function rule11(taggedSentence, index) {
+  if (startsWith(taggedSentence[index][1], 'VB')) {
+    if (taggedSentence[index + 1] && taggedSentence[index + 1][1] == 'CC') {
+      if (taggedSentence[index + 2] && taggedSentence[index + 2][1] == 'NN') {
+        taggedSentence[index + 2][1] = taggedSentence[index][1]
+      }
+    }
+  }
+}
+
 
 module.exports = BrillTransformationRules;
